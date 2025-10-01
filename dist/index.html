@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Geo-Notes - Location-based note taking app" />
+    <meta name="theme-color" content="#3b82f6" />
+    
+    <!-- PWA related meta tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Geo-Notes" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <title>Geo-Notes</title>
+    
+    <!-- Prevent zoom on input focus for iOS -->
+    <style>
+      input, textarea, select {
+        font-size: 16px !important;
+      }
+      
+      /* Prevent pull-to-refresh */
+      body {
+        overscroll-behavior-y: contain;
+      }
+      
+      /* Ensure full height on mobile */
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-56681714.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-8a332d8f.js">
+    <link rel="modulepreload" crossorigin href="/assets/capacitor-vendor-3b73cb6d.js">
+    <link rel="modulepreload" crossorigin href="/assets/map-vendor-21bef049.js">
+    <link rel="stylesheet" href="/assets/index-21eab2ed.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>
