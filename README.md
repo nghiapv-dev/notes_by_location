@@ -3,11 +3,11 @@
 
 # 1. Clone repository
 
-```bashgit clone https://github.com/username/geonotes.git
+```bashgit clone https://github.com/username/notes_by_location.git
 
 # Clone repositorycd geonotes
 
-git clone https://github.com/username/geonotes.git
+git clone https://github.com/username/notes_by_location.git
 
 cd geonotes# 2. Cài đặt dependencies
 
@@ -100,5 +100,6 @@ npm run build
 npx cap open ios# Sync với Capacitor
 
 ```npx cap sync
+
 
 
